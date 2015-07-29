@@ -3,6 +3,7 @@ Devin's Dotfiles
 
 This repo contains a collection of my dotfiles for the following programs:
 
+* Git
 * Vim
 
 Installation
