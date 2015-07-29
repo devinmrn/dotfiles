@@ -1,3 +1,7 @@
+call plug#begin('~/.vim/plugged') " Initiates vim-plug plugin manager.
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end()
+
 set nocompatible        " Make Vim more useful.
                         " Ensure we're not using Vi like options.
 
