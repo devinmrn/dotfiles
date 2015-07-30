@@ -17,9 +17,7 @@ set tabstop=4           " A Tab is displayed as 4 spaces wide by default.
 set shiftwidth=4        " When re-indenting a file 4 spaces wide is the default.
 set expandtab           " Always use spaces instead of Tab characters.
 
-set smartindent         " Copy indentation levels from previous lines.
-                        " Attempts to be smart about increasing indentation
-                        " where appropriate.
+set autoindent         " Copy indentation levels from previous lines.
 
 set visualbell          " Enable the visual bell instead of an audible tone.
 set t_vb=               " Unset the control sequence used for the visual bell.
@@ -40,6 +38,14 @@ set lazyredraw          " Avoid unnecessary calls to redraw the screen.
 
 set incsearch           " Highlight searches as they are entered.
 set hlsearch            " Highlight search matches.
+set ignorecase          " Ignore case when searching in all lowercase.
+set smartcase           " Don't ignore case if we use capital letters.
+
+set backspace=indent,eol,start " Allow backspace over indents, line breaks, etc.
+
+set laststatus=2        " Always display the status line.
+set cmdheight=2         " Prevents annoying press enter to continue messages.
+
 nnoremap <leader><space> :nohlsearch<CR>    " Shortcut to disable hlsearch.
 
 " Enable movement based on visual lines.
