@@ -29,5 +29,5 @@ Project Goals
 -------------
 
 My main motivation for this project is to clean up my configuration files and 
-contribute to the growing collection of examples online. Hopefully someone finds
-this project useful to base their own dotfiles off of.
+contribute to the growing collection of examples online.
+Hopefully someone finds this project useful!
